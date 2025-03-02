@@ -1,6 +1,6 @@
 # Encurtador de URLs
 
-Um encurtador de URLs simples e eficiente, desenvolvido com Flask e Python. 
+Um encurtador de URLs simples, desenvolvido com Flask e Python. 
 Este projeto permite encurtar URLs longas e redirecionar para a URL original usando um servidor local.
 
 ## Pré-requisitos
