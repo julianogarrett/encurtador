@@ -3,14 +3,12 @@
 Um encurtador de URLs simples e eficiente, desenvolvido com Flask e Python. 
 Este projeto permite encurtar URLs longas e redirecionar para a URL original usando um servidor local.
 
-# Como usar
-
 ## Pré-requisitos
 
 - Python 3.8 ou superior.
 - Pip (gerenciador de pacotes do Python).
 
-## Instalação
+## Como usar
 
 ### 1. Clone o repositório:
 
