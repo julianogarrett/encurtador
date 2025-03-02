@@ -24,56 +24,42 @@ Baixe e instale o Postman: [https://www.postman.com/downloads/](https://www.post
 Inicie o servidor Flask:
 ```bash
 python app.py
-O servidor estará rodando em http://localhost:5000.
 ```
+O servidor estará rodando em http://localhost:5000.
 
 ### 4. Use o Postman para executar a API
 Abra o Postman.
 
-Crie uma nova requisição:
-
-Clique em New > Request.
-
+Crie uma nova requisição clicando em New > Request.
 Dê um nome à requisição (ex.: "Encurtar URL") e salve em uma coleção (ou crie uma nova).
 
-Configure a requisição:
-
-```bash
+####Configure a requisição:
 Método HTTP: Selecione POST.
 
 URL: Digite http://localhost:5000/shorten.
-
 Headers: Adicione um cabeçalho para indicar que você está enviando JSON:
-
 Chave: Content-Type
-
 Valor: application/json
-```
-Envie o corpo da requisição (body):
 
+#### Envie o corpo da requisição (body):
 Clique na aba Body.
-
 Selecione raw e escolha JSON no menu suspenso.
-
 Digite o JSON com a URL que você quer encurtar:
 
 ```bash
-Copy
 {
   "url": "https://www.exemplo.com"
 }
 ```
-
 Clique em Send.
 
 A resposta será exibida na parte inferior da tela. Você deve receber algo como:
-
 ```bash
 {
   "short_url": "http://localhost:5000/abc123"
 }
 ```
-### Copie o url gerado e cole em seu navegador. Você será redirecionado automaticamente.
+#### Copie o url gerado e cole em seu navegador. Você será redirecionado automaticamente.
 
 ## Endpoints da API
 
